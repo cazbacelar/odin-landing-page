@@ -1,8 +1,8 @@
-Sample of a Landing Page requested as part of The Odin Project Foundations' Curriculum.
+<h2>Sample of a Landing Page requested as part of The Odin Project Foundations' Curriculum.</h2>
 
 If you're here, please feel free to share any tips for my project and let me know what you think :)
 
-Credits
+<h3>Credits</h3>
 
 Images:
 https://pixabay.com/photos/cat-pet-licking-animal-tabby-cat-323262/
