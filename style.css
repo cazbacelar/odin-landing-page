@@ -17,7 +17,7 @@ h1 {
     font-size: 18px;
     color: #e5e7eb;
     padding: 0;
-    margin: 12px 0 34px;
+    margin: 10px 0 24px;
 }
 button {
     background-color: #72B9AE;
@@ -30,8 +30,6 @@ button {
     cursor: pointer;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-    /*-webkit-transition-duration: 0.4s; /* Safari */
-    /*transition-duration: 0.4s;*/
 }
 button:hover {
     transform: scale(1.1);
@@ -51,7 +49,7 @@ button:hover {
     justify-content: space-between;
     align-items: center;
     padding: 8px;
-    width: 1146px;
+    width: 946px;
 }
 .logo {
     width: 65px;
@@ -82,7 +80,7 @@ a:nth-of-type(1n) {
 /*MAIN*/
 main {
     display: flex;
-    flex-flow: row nowrap; /* check wrap in media query */
+    flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
     gap: 46px;
@@ -90,11 +88,11 @@ main {
     padding-bottom: 100px;
 }
 .main-text { 
-    width: 600px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start; /*add padding top and bottom*/
+    align-items: flex-start;
     flex-shrink: 1;
 }
 .main-img {
@@ -123,23 +121,23 @@ main {
     border: 2px solid #816A4C;
     border-radius: 12px;
 }
-.info-container { /* maybe set a margin top and a flex wrap */
+.info-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: stretch;
     gap: 42px;
-    padding-bottom: 56px;
+    padding-bottom: 36px;
     color: #1A2013;
 }
-.info { /* maybe text-align center */
+.info {
     max-width: 200px;
 }
 /*QUOTE SECTION*/
 .quote-section {
     background-color: #EAE4E5;
     display: flex;
-    flex-direction: column; /*maybe set flex-flow to row wrap*/
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 42px 0;
@@ -177,10 +175,10 @@ figcaption {
     padding: 100px 0;
 }
 .signup-container {
-    display: flex; /*flex flow column wrap*/
+    display: flex;
     justify-content: space-around; 
     align-items: center;
-    width: 1100px;
+    width: 946px;
     padding: 34px 26px;
     border-radius: 6px;    
     background-color: #72B9AE;
@@ -206,7 +204,6 @@ section button {
 .footer {
     color: #e5e7eb;
     font-size: 18px;
-   /* padding: 26px;*/
 }
 .footer-link {
     text-decoration: none;
@@ -227,14 +224,14 @@ section button {
         padding-top: 20px;
         padding-bottom: 30px;
     }
-    .nav-container {
-        width: 592px;
+    .main-text {
+        width: 500px;
     }
-    .main-img {
-        max-width: 600px;
+    .nav-container {
+        width: 500px;
     }
 }
-@media (max-width: 605px) {
+@media (max-width: 500px) {
     .main-img {
         max-width: 100%;
         height: auto;
